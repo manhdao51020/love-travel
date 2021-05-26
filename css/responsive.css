@@ -1,0 +1,215 @@
+/* Mobile & Tablet */
+@media (max-width:1023px) {
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header-navbar{
+        display: block;
+        text-align: center;
+    }
+    .header-slide-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+}
+ 
+/* Tablet */
+@media (min-width:740px)and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .search__select{
+        width: 100%;
+        margin-left: 0;
+    }
+    .search-icon{
+        right: 55px;
+    }
+    .package-banner{
+        height: 321px;
+    }
+    .package-banner-img{
+        height: 100%;
+    }
+    .package-banner-content{
+        display: block;
+    }
+    .package-banner-text{
+        margin:0px 15px;
+    }
+    .package-banner-link{
+        width: 247px;
+        margin: -50px auto;
+    }
+    .swiper-wrapper{
+        padding: 40px 30px;
+    }
+    .slider-bar{
+        top:37px;
+    }
+    .best-place-time {
+        width: 584px;
+        position: absolute;
+        display: flex;
+        bottom: -111px;
+        left: 330px;
+    }
+    .travel-desc-content{
+        padding-bottom: 60px;
+    }
+    .travel-desc-item{
+        margin-bottom: 45px;
+    }
+    .discover-img{
+        margin-top: -5px;
+    }
+    .promotion-image{
+        height: 448px;
+    }
+    .promotion-item-icon{
+        top:66%
+    }
+    .footer-with-us{
+        display: block;
+    }
+    .footer-input{
+        margin-left: 0;
+    }
+    .footer-contact{
+        margin-top: 50px;
+    }
+    .contact-wrapper-paragraph{
+        margin-top: 20px;
+    }
+    .footer-copyright{
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .mobile-menu-close__btn{
+        right:32px;
+    }
+    .search-title{
+        width: 270px;
+        margin: 0 auto;
+    }
+    .search__select{
+        width: 214px;
+    }
+    .search-icon{
+        right: 85px;
+        top: 554px;
+    }
+    .container-header{
+        width: 300px;
+        margin: 0 auto 50px auto;
+    }
+    .container-paragrahp{
+        width: 300px;
+        margin: 0 auto 50px auto;
+    }
+    .proposal-item{
+        margin: 0 auto 25px auto;
+        width: 270px;
+        height: 270px;
+    }
+    .package-banner-text{
+        margin: 0 54px;
+    }
+    .package-banner {
+        width: 414px;
+        height: 371px;
+    }
+    .package-banner-img{
+        height: 100%;
+        width: 100%;
+    }
+    .package-banner-content{
+        display: block;
+    }
+    .package-banner-link{
+        width: 237px;
+        margin: 0 auto;
+        padding: 15px 32px;
+    }
+    .best-place-text {
+        padding: 20px 35px 20px 15px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .best-place-time{
+        width: 250px;
+        display: block;
+        bottom: -195px;
+    }
+    .best-place-item::after{
+        display: none;
+    }
+    .swiper-wrapper{
+        width: 250px;
+        height: 141px;
+    }
+    .best-place-image{
+        margin: 0 auto;
+    }
+    .travel-desc-content{
+        padding: 50px 0;
+    }
+    .travel-desc-item{
+        margin-bottom: 50px;
+    }
+    .discover-img{
+        margin-top: -5px;
+    }
+    .promotion-list{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .promotion-item{
+        margin-bottom: 15px;
+    }
+    .promotion-item-icon{
+        top: 46%;
+    }
+    .promotion-item-price{
+        display: block;
+    }
+    .promotion-tag{
+        margin-bottom: 5px;
+    }
+    .footer-submit{
+        display: block;
+        padding-bottom: 73px;
+    }
+    .footer-input{
+        width: 270px;
+    }
+    .footer-send{
+        width: 270px;
+        margin: 0 auto;
+    }
+    .footer-contact{
+        margin-top: 20px;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .contact-wrapper-paragraph{
+        margin-top: 20px;
+    }
+    .footer-copyright{
+        width: 270px;
+        margin: 0 auto;
+        display: block;
+    }
+    .footer-copyright-text{
+        text-align: center;
+    }
+}
