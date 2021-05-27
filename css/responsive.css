@@ -145,11 +145,6 @@
         width: 300px;
         margin: 0 auto;
     }
-    .best-place-time{
-        width: 250px;
-        display: block;
-        bottom: -195px;
-    }
     .best-place-item::after{
         display: none;
     }
