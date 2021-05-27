@@ -757,7 +757,7 @@ html{
 
 .best-place-content{
     margin-top: 75px;
-    margin-bottom: 180px;
+    margin-bottom: 65px;
 }
 
 .best-place-text{
@@ -836,9 +836,9 @@ html{
     background: linear-gradient(to right top, #2cf1c7 0%, #1bbc63 100%);
 }
 
-.best-place-image{
+.swiper-container{
     height: 410px;
-    position: relative;
+    object-fit: cover;
 }
 
 .best-place-img{
@@ -876,7 +876,7 @@ html{
 .best-place-time{
     position: absolute;
     display: flex;
-    bottom: -135px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 500px;
