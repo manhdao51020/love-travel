@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
@@ -751,15 +752,16 @@
                     </div>
                     <a href="" class="best-place-text-btn">BOOK NOW</a>
                 </div>
-                <div class="best-place-image col l-8">
+                <div class="swiper-container mySwiper col l-8">
                     <div class="swiper-wrapper">
-                        <img src="./image/package-3.jpg" alt="" class="best-place-img">
-                        <!-- <img src="./image/parallax-4.jpg" alt="" class="best-place-img">
-                        <img src="./image/parallax-4-1.jpg" alt="" class="best-place-img"> -->
-                        <div class="slider-bar">
-                            <div class="slider-btn active"></div>
-                            <div class="slider-btn"></div>
-                            <div class="slider-btn"></div>
+                        <div class="swiper-slide">
+                            <img src="./image/package-3.jpg" alt="" class="best-place-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/parallax-4.jpg" alt="" class="best-place-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/parallax-4-1.jpg" alt="" class="best-place-img">
                         </div>
                         <ul class="best-place-time">
                             <li class="best-place-item">
@@ -779,7 +781,11 @@
                                 <h6>seconds</h6>
                             </li>
                         </ul>
-                    </div>
+                    </div>    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    
                 </div>
             </div>
         </div>
@@ -1058,6 +1064,24 @@
             </div>
         </footer>
     </div>
-    <script src="./main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+      </script>
 </body>
 </html>
